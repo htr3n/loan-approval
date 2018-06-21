@@ -1,0 +1,6 @@
+[submodule "loan-approval-portal"]
+	path = loan-approval-portal
+	url = git@github.com:htr3n/loan-approval-portal.git
+[submodule "loan-approval-process"]
+	path = loan-approval-process
+	url = git@github.com:htr3n/loan-approval-process.git
