@@ -4,45 +4,48 @@
 
 1. Home page
 
-![](Loan-Approval-Process-User-Guide.fld/image006.jpg)
+![](doc/portal-home.png)
 
 2. New loan request
 
-![](Loan-Approval-Process-User-Guide.fld/image008.jpg)
+![](doc/new-loan-request.png)
 
-3. The customer's portal
+New Loan Confirmation
 
-![](Loan-Approval-Process-User-Guide.fld/image012.jpg)
+![](doc/new-loan-response.png)
 
-4. An existing customer can log in to the portal
+3. The customer's login
 
-After issuing the first request, the customer's personal information is stored in the database. Later on, the customer can log in to monitor the progress of every loan request as well as modify his/her personal information.
+![](doc/customer-login.png)
 
-> Note: In reality, the customer's personal identification number (PIN) should be securely sent to his/her address. For testing and demonstration purposes, the customer's information is displayed in the developer page.
-
-![](Loan-Approval-Process-User-Guide.fld/image014.jpg)
+>  After issuing the first request, the customer's personal information is stored in the database. Later on, the customer can log in to monitor the progress of every loan request as well as modify his/her personal information.
+>
+> In reality, the customer's personal identification number (PIN) should be securely sent to his/her address. For testing and demonstration purposes, the customer's information is displayed in the developer page.
 
 5. Customer's loan management page
 
-![](Loan-Approval-Process-User-Guide.fld/image016.jpg)
+![](doc/customer-loan-management.png)
 
 6. Updating customer's profile
 
-![](Loan-Approval-Process-User-Guide.fld/image018.jpg)
+![](doc/customer-profile.png)
+
+7. Customer can request another loan
+
+![](doc/customer-request.png)
 
 ## Staff
 
 After the customer issued a new loan request, the Credit Broker can log in to his portal to handle the request. The account information of each staff can be found at the developer's portal.
 
-![](Loan-Approval-Process-User-Guide.fld/image020.jpg)
-
+![](doc/staff-login.png)
 
 
 > **Note**: The staff will be forward to a particular front-end according to his particular role after authenticating.
 
 #### Credit Broker
 
-![](Loan-Approval-Process-User-Guide.fld/image022.jpg)
+![](doc/staff-credit-broker.png)
 
 The Credit Broker quickly examines new requests and presses the button 'Accept' to proceed.' After that, the Loan Approval process will proceed right after the first task named 'Access Portal'.
 
@@ -50,19 +53,13 @@ The Credit Broker quickly examines new requests and presses the button 'Accept' 
 
 A Supervisor and A post-processing Clerk perform the same task but different loan amount. The Supervisor is responsible for loan requests of which the amount is more than 1 million. The other requests are handled by the Post-Processing Clerk.
 
-!(Loan-Approval-Process-User-Guide.fld/image024.jpg)
+![](doc/staff-post-processing-clerk.png)
 
-##### Supervisor
-
-![](Loan-Approval-Process-User-Guide.fld/image026.jpg)
-
-##### Post-Processing Clerk
-
-As the Post-Processing Clerk or Supervisor presses the button 'Process', the Loan Approval process will continue executing right after the second task named 'Access Portal'.
+As the Post-Processing Clerk / Supervisor presses the button 'Process', the Loan Approval process will continue executing right after the second task named 'Access Portal'.
 
 #### Manager
 
-![](Loan-Approval-Process-User-Guide.fld/image030.jpg)
+![](doc/staff-manager.png)
 
 The manager can use the portal to monitor the statuses of loan requests, consider and grant/reject the loan request with high risk, and sign the granted loan contract. These manager's tasks are aligned with the corresponding tasks of the Loan Approval process.
 
@@ -70,4 +67,6 @@ After the manager signed the loan contract, the customer can log in to his/her p
 
 ### Developer
 
-![](Loan-Approval-Process-User-Guide.fld/image034.jpg)
+Page http://localhost:9999/portal/dev.html (formerly http://localhost:9999/portal/dev.list) is only used for developing/testing/debugging.
+
+![](doc/developer.png)
